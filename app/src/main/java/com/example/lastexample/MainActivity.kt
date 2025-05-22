@@ -1,5 +1,6 @@
 package com.example.lastexample
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.MenuItem
@@ -35,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
                 }
                 R.id.menu2 -> {
-
+                    startActivity(Intent(this, TimerActivity::class.java))
                 }
                 R.id.menu3 -> {
 
